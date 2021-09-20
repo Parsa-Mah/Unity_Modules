@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Time_Date_System</name>
+    </assembly>
+    <members>
+        <member name="T:PM.Utill.Presenter.TimeDatePresenter">
+            <summary>
+            The core system for the custom time system
+            </summary>
+        </member>
+        <member name="M:PM.Utill.Presenter.TimeDatePresenter.SetTime(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Sets the time object to hour:minutes.seconds *ALL INT*
+            </summary>
+            <param name="hou"></param>
+            <param name="min"></param>
+            <param name="sec"></param>
+        </member>
+        <member name="M:PM.Utill.Presenter.TimeDatePresenter.SetDate(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Sets the date object to day/month/year *ALL INT*
+            </summary>
+            <param name="day"></param>
+            <param name="month"></param>
+            <param name="year"></param>
+        </member>
+        <member name="M:PM.Utill.Presenter.TimeDatePresenter.ResetTime">
+            <summary>
+            Sets the time to 00:00.00
+            </summary>
+        </member>
+        <member name="M:PM.Utill.Presenter.TimeDatePresenter.StartCountingTime(System.Int32)">
+            <summary>
+            Starts the time
+            </summary>
+            <param name="time"></param>
+        </member>
+        <member name="M:PM.Utill.Presenter.TimeDatePresenter.AddOneSecond(System.Int32)">
+            <summary>
+            *NEEDS* (int)Time.time for SCALED or (int)Time.realtimeSinceStartup for UNSCALED time
+            </summary>
+            <param name="time"></param>
+        </member>
+        <member name="M:PM.Utill.Presenter.TimeDatePresenter.AddOneDay">
+            <summary>
+            **DATE MUST BE SET**
+            </summary>
+        </member>
+        <member name="M:PM.Utill.Presenter.TimeDatePresenter.AddOneMonth">
+            <summary>
+            **DATE MUST BE SET**
+            </summary>
+        </member>
+        <member name="M:PM.Utill.Presenter.TimeDatePresenter.AddOneYear">
+            <summary>
+            **DATE MUST BE SET**
+            </summary>
+        </member>
+        <member name="M:PM.Utill.Presenter.TimeDatePresenter.GetTime">
+            <summary>
+            Returns the time in format of hh:mm:ss
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PM.Utill.Presenter.TimeDatePresenter.GetDate(System.Int32)">
+            <summary>
+            <para>*NEEDS TYPE (0 OR 1)*</para>
+            <para>Type 0 returns all numbers like 22/4/2021 and 1 returns month as a name like 26/september/2024</para>
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PM.Utill.Presenter.TimeDatePresenter.AddADay">
+            <summary>
+            **DATE MUST BE SET**
+            </summary>
+        </member>
+        <member name="M:PM.Utill.Presenter.TimeDatePresenter.AddAMonth">
+            <summary>
+            **DATE MUST BE SET**
+            </summary>
+        </member>
+        <member name="M:PM.Utill.Presenter.TimeDatePresenter.AddAYear">
+            <summary>
+            **DATE MUST BE SET**
+            </summary>
+        </member>
+    </members>
+</doc>
