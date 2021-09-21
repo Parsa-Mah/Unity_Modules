@@ -1,5 +1,5 @@
 ﻿
-namespace PM.Utill.Time
+namespace PM.Time_Date_System.Models
 {
     class TimeModel
     {
